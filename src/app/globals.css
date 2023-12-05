@@ -1,7 +1,6 @@
 @font-face {
-  font-family: "MyCustomFont"; /* You can name it anything */
-  src: url("/path_to_fonts_folder/myfont.otf") format("opentype");
-  /* Add other properties if needed */
+  font-family: "AnticDidone";
+  src: url("/assets/fonts/AnticDidone-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -96,7 +95,8 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  /* font: inherit; */
+  font-family: "AnticDidone";
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
